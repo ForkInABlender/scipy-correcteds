@@ -48,7 +48,7 @@ from numpy import __version__ as __numpy_version__
 from numpy import reshape, outer, dot, where, array, exp, zeros, size
 from numpy import mat, ndarray, eye, tanh, clip, log, dot, sqrt, power, pi, tan, diag, random as rand
 from numpy import random, asarray, mgrid, zeros, tile, array, floor, sum
-
+from numpy import * # don't abuse *-imports unless ua gotta be lazy
 
 try:
     from scipy.__config__ import show as show_config
